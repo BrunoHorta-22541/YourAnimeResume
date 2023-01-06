@@ -1,0 +1,18 @@
+{
+  "Anime": [
+    {
+      "id": 1,
+      "title": "hello"
+    },{
+      "id":2,
+"title":"hello"}
+  ],
+  "Manga": [
+{
+    "name": "typicode"
+  }],
+"LightNovel": [
+{
+    "name": "typicode"
+  }]
+}
