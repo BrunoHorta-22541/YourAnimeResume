@@ -2,17 +2,59 @@
   "Anime": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "hello",
+      "totalepisodes": 24,
+      "currentwatchedepisode": 12,
+      "Studio": "something",
+      "Author": "someone"
+
     },{
-      "id":2,
-"title":"hello"}
+      "id": 2,
+      "name": "hello",
+      "totalepisodes": 52,
+      "currentwatchedepisode": 30,
+      "Studio": "something",
+      "Author": "someone",
+
+      "title":"hello"}
   ],
   "Manga": [
-{
-    "name": "typicode"
-  }],
-"LightNovel": [
-{
-    "name": "typicode"
-  }]
-}
+  {
+      "id": 1,
+      "name": "hello",
+      "totalchapters": 24,
+      "currentreadchapter": 12,
+      "publisher": "something",
+      "Author": "someone"
+
+  },
+    {
+      "id": 2,
+      "name": "hello",
+      "totalepisodes": 52,
+      "currentwatchedepisode": 30,
+      "Studio": "something",
+      "Author": "someone",
+
+      "title":"hello"}
+  ],
+  "LightNovel": [
+  {
+    "id": 1,
+    "name": "hello",
+    "totalchapters": 24,
+    "currentreadchapter": 12,
+    "publisher": "something",
+    "Author": "someone"
+    },
+    {
+      "id": 2,
+      "name": "hello",
+      "totalepisodes": 52,
+      "currentwatchedepisode": 30,
+      "Studio": "something",
+      "Author": "someone",
+
+      "title":"hello"}
+  ]
+  }
