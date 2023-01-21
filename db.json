@@ -1,12 +1,10 @@
 {
   "User":[
     {
-    "id":1,
     "email":"test1@outlook.com",
     "password":"testing"
     },
     {
-    "id":2,
     "email":"test2@outlook.com",
     "password":"testing2"
     }
