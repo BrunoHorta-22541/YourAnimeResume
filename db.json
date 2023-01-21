@@ -1,4 +1,16 @@
 {
+  "User":[
+    {
+    "id":1,
+    "email":"test1@outlook.com",
+    "password":"testing"
+    },
+    {
+    "id":2,
+    "email":"test2@outlook.com",
+    "password":"testing2"
+    }
+  ],
   "Anime": [
     {
       "id": 1,
@@ -8,7 +20,8 @@
       "Studio": "something",
       "Author": "someone"
 
-    },{
+    },
+    {
       "id": 2,
       "name": "hello",
       "totalepisodes": 52,
@@ -16,7 +29,8 @@
       "Studio": "something",
       "Author": "someone",
 
-      "title":"hello"}
+      "title":"hello"
+    }
   ],
   "Manga": [
   {
