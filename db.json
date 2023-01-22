@@ -1,72 +1,57 @@
 {
-  "User":[
-    {
-    "email":"test1@outlook.com",
-    "password":"testing"
-    },
-    {
-    "email":"test2@outlook.com",
-    "password":"testing2"
-    }
-  ],
   "Anime": [
     {
       "id": 1,
       "name": "hello",
-      "totalepisodes": 24,
-      "currentwatchedepisode": 12,
+      "Synopis": "veryGood isekai",
       "Studio": "something",
-      "Author": "someone"
+      "Author": "someone",
+      "rate":9
 
     },
     {
       "id": 2,
       "name": "hello",
-      "totalepisodes": 52,
-      "currentwatchedepisode": 30,
+      "Synopis": "veryGood isekai",
       "Studio": "something",
       "Author": "someone",
-
-      "title":"hello"
+      "rate":6
     }
   ],
   "Manga": [
   {
       "id": 1,
       "name": "hello",
-      "totalchapters": 24,
-      "currentreadchapter": 12,
+      "Synopis": "veryGood isekai",
       "publisher": "something",
-      "Author": "someone"
-
+      "Author": "someone",
+      "rate":2
   },
     {
       "id": 2,
       "name": "hello",
-      "totalepisodes": 52,
-      "currentwatchedepisode": 30,
-      "Studio": "something",
+      "Synopis": "veryGood isekai",
+      "publisher": "something",
       "Author": "someone",
-
-      "title":"hello"}
+      "rate":4
+    }
   ],
   "LightNovel": [
   {
     "id": 1,
     "name": "hello",
-    "totalchapters": 24,
-    "currentreadchapter": 12,
+    "Synopis": "veryGood isekai",
     "publisher": "something",
-    "Author": "someone"
+    "Author": "someone",
+    "rate":7
     },
     {
       "id": 2,
       "name": "hello",
-      "totalepisodes": 52,
-      "currentwatchedepisode": 30,
+      "Synopis": "veryGood isekai",
       "Studio": "something",
       "Author": "someone",
-
-      "title":"hello"}
+      "rate":8
+    }
   ]
   }
