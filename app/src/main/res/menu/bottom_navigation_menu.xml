@@ -2,7 +2,13 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Anime" />
-    <item android:title="Manga" />
-    <item android:title="LightNovel" />
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Anime" />
+    <item
+        android:id="@+id/MangaFragment"
+        android:title="Manga" />
+    <item
+        android:id="@+id/LightNovelFragment"
+        android:title="LightNovel" />
 </menu>

@@ -9,5 +9,22 @@
         android:id="@+id/homeFragment"
         android:name="pt.estig.twdm.pdm.youranimeresume.View.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_mangaFragment"
+            app:destination="@id/mangaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_lightNovelFragment"
+            app:destination="@id/lightNovelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mangaFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.MangaFragment"
+        android:label="fragment_manga"
+        tools:layout="@layout/fragment_manga" />
+    <fragment
+        android:id="@+id/lightNovelFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.LightNovelFragment"
+        android:label="fragment_light_novel"
+        tools:layout="@layout/fragment_light_novel" />
 </navigation>

@@ -1,33 +1,45 @@
 package pt.estig.twdm.pdm.youranimeresume.Data;
 
 public class Anime {
+    private long id;
     private String name;
-    private int totalepisodes;
-    private int currentwatchedepisode;
     private String Studio;
     private String Author;
-    //image
+    private String synopis;
+    private String animeImage;
+    private int rate;
 
 
-    public Anime(String name, int totalepisodes, int currentwatchedepisode, String studio, String author) {
+    public Anime(long id,String name, String synopis, String studio, String author,String animeImage,int rate) {
+        this.id = id;
         this.name = name;
-        this.totalepisodes = totalepisodes;
-        this.currentwatchedepisode = currentwatchedepisode;
-        Studio = studio;
-        Author = author;
+        this.synopis = synopis;
+        this.Studio = studio;
+        this.Author = author;
+        this.animeImage = animeImage;
+        this.rate = rate;
     }
+
+    public int getRate() {
+        return rate;
+    }
+
+    public long getId() {
+        return id;
+    }
+
     public String getName() {
         return name;
     }
 
-    public int getTotalepisodes() {
-        return totalepisodes;
+
+    public String getSynopis() {
+        return synopis;
     }
 
-    public int getCurrentwatchedepisode() {
-        return currentwatchedepisode;
+    public String getAnimeImage() {
+        return animeImage;
     }
-
 
     public String getStudio() {
         return Studio;

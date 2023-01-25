@@ -3,7 +3,7 @@ package pt.estig.twdm.pdm.youranimeresume.Data;
 
 import java.util.List;
 
-public class JAPIResponse {
+public class JAPIResponse<A> {
     private List results;
     private int count;
     private String next;
