@@ -27,7 +27,8 @@
       "Synopis": "veryGood isekai",
       "publisher": "something",
       "Author": "someone",
-      "rate":2
+      "rate":2,
+      "image":"https://en.wikipedia.org/wiki/File:The_Eminence_in_Shadow_light_novel_volume_1_cover.jpg"
   },
     {
       "id": 2,
@@ -35,7 +36,8 @@
       "Synopis": "veryGood isekai",
       "publisher": "something",
       "Author": "someone",
-      "rate":4
+      "rate":4,
+      "image":"https://en.wikipedia.org/wiki/File:The_Eminence_in_Shadow_light_novel_volume_1_cover.jpg"
     }
   ],
   "LightNovel": [
@@ -45,7 +47,8 @@
     "Synopis": "veryGood isekai",
     "publisher": "something",
     "Author": "someone",
-    "rate":7
+    "rate":7,
+    "image":"https://en.wikipedia.org/wiki/File:The_Eminence_in_Shadow_light_novel_volume_1_cover.jpg"
     },
     {
       "id": 2,
@@ -53,7 +56,8 @@
       "Synopis": "veryGood isekai",
       "Studio": "something",
       "Author": "someone",
-      "rate":8
+      "rate":8,
+      "image":"https://en.wikipedia.org/wiki/File:The_Eminence_in_Shadow_light_novel_volume_1_cover.jpg"
     }
   ]
   }
