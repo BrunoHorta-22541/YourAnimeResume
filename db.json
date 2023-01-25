@@ -2,20 +2,22 @@
   "Anime": [
     {
       "id": 1,
-      "name": "hello",
+      "name": "Eminence in the Shadows",
       "Synopis": "veryGood isekai",
       "Studio": "something",
       "Author": "someone",
-      "rate":9
+      "rate":9,
+      "image":"https://en.wikipedia.org/wiki/File:The_Eminence_in_Shadow_light_novel_volume_1_cover.jpg"
 
     },
     {
       "id": 2,
-      "name": "hello",
+      "name": "Dog Days",
       "Synopis": "veryGood isekai",
       "Studio": "something",
       "Author": "someone",
-      "rate":6
+      "rate":6,
+      "image":"https://th.bing.com/th/id/R.0893838120cb3d0183f9611c800a3de5?rik=Fk1sB%2fn%2b8B9ftw&riu=http%3a%2f%2fimg1.ak.crunchyroll.com%2fi%2fspire3%2ff895fbd34e6cab98fb6ac94e059760331419685833_full.png&ehk=LBx9Xm1RLepn4CiVYnlUgSOwhFVtkDquB%2fWu60ZpJLo%3d&risl=&pid=ImgRaw&r=0"
     }
   ],
   "Manga": [
