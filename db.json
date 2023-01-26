@@ -27,6 +27,15 @@
       "Author": "someone",
       "rate":7,
       "image":"https://www.manga-news.com/public/images/series/sankarea-pika-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Love Live",
+      "Synopis": "idol Anime",
+      "Studio": "something",
+      "Author": "someone",
+      "rate":8,
+      "image":"https://th.bing.com/th/id/R.6e0e784a800a2bb3cc0f8ab4befcfbb9?rik=UZGlQMnERZFaxw&riu=http%3a%2f%2fwww.nerdspan.com%2fwp-content%2fuploads%2f2015%2f10%2flovelivekeyart.jpg&ehk=%2fi9mV%2byLlATi54aKBzUpK9wJZNUsWDJEjdbVhKreuC4%3d&risl=&pid=ImgRaw&r=0"
     }
   ],
   "Manga": [
