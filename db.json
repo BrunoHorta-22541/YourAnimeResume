@@ -130,5 +130,21 @@
          "rate":9,
          "image":"https://th.bing.com/th/id/OIP.XPq8xX-FYly2Cg_jr7CjgQHaLH?pid=ImgDet&rs=1"
       }
+   ],
+   "Users": [
+      {
+         "id": 1,
+         "email": "carlosmbs@gmail.com",
+         "password": "password123",
+         "firstName": "Carlos",
+         "lastName": "Sancho"
+      },
+      {
+         "id": 2,
+         "email": "bruno@gmail.com",
+         "password": "password123",
+         "firstName": "Bruno",
+         "lastName": "Horta"
+      }
    ]
 }
