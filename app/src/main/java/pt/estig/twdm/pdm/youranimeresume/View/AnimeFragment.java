@@ -12,19 +12,26 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
+import pt.estig.twdm.pdm.youranimeresume.Data.Anime;
+import pt.estig.twdm.pdm.youranimeresume.Data.DataSource;
+import pt.estig.twdm.pdm.youranimeresume.Data.JAPI;
+import pt.estig.twdm.pdm.youranimeresume.Data.JAPIResponse;
 import pt.estig.twdm.pdm.youranimeresume.R;
 import pt.estig.twdm.pdm.youranimeresume.ViewModels.AnimeViewModel;
-import pt.estig.twdm.pdm.youranimeresume.ViewModels.LightNovelViewModel;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 
-public class LightNovelFragment extends Fragment {
-
-    private LNAdapter adapter;
-    private LightNovelViewModel viewModel;
+public class AnimeFragment extends Fragment implements AnimeAdpter.AnimeAdpterEventListener {
+    private AnimeAdpter adapter;
+    private AnimeViewModel viewModel;
     private NavController navController;
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,24 +43,25 @@ public class LightNovelFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_light_novel, container, false);
-        this.viewModel = new ViewModelProvider(this, (ViewModelProvider.Factory) new ViewModelProvider.AndroidViewModelFactory(getActivity().getApplication())).get(LightNovelViewModel.class);
-        navController = NavHostFragment.findNavController(LightNovelFragment.this);
-        RecyclerView recyclerView = root.findViewById(R.id.lightRecy);
-        this.adapter = new LNAdapter(new LNAdapter.LNAdapterEventListener() {
+        View root = inflater.inflate(R.layout.fragment_anime, container, false);
+        this.viewModel = new ViewModelProvider(this, (ViewModelProvider.Factory) new ViewModelProvider.AndroidViewModelFactory(getActivity().getApplication())).get(AnimeViewModel.class);
+        navController = NavHostFragment.findNavController(AnimeFragment.this);
+        RecyclerView recyclerView = root.findViewById(R.id.animeRecyclerView);
+        this.adapter = new AnimeAdpter(new AnimeAdpter.AnimeAdpterEventListener() {
             @Override
-            public void onLNClicked(long lnId) {
-                NavDirections action = LightNovelFragmentDirections.actionLightNovelFragmentToLightNovelDetailsFragment(lnId);
+            public void onAnimeClicked(long animeId) {
+                NavDirections action = AnimeFragmentDirections.actionAnimeFragmentToAnimeDetailsFragment(animeId);
                 navController.navigate(action);
             }
-
-
         },getContext());
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(layoutManager);
+        //this.updateCategoryList();
+
         return root;
+
     }
 
     @Override
@@ -61,14 +69,24 @@ public class LightNovelFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        this.viewModel.getLNBYAZ().observe(getViewLifecycleOwner(), lnList -> {
-            this.adapter.updateLNList(lnList);
+        this.viewModel.getAnimeBYAZ().observe(getViewLifecycleOwner(), animeList -> {
+            this.adapter.updateAnimeList(animeList);
         });
     }
+
     @Override
     public void onStart() {
         super.onStart();
         viewModel.refreshData();
     }
+
+    @Override
+    public void onAnimeClicked(long animeiID) {
+        NavDirections action = AnimeFragmentDirections.actionAnimeFragmentToAnimeDetailsFragment(animeiID);
+        navController.navigate(action);
+    }
+
+
+//this.adapter = new AnimeAdpter(getContext(),this);
 
 }

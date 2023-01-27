@@ -14,10 +14,13 @@ public interface JAPI {
     @GET("Anime")
     Call<List<Anime>> getAnimes();
 
+    @GET("Anime")
+    Call<List<Anime>> gettopAnimes();
+
     @GET("Manga")
-    Call<JAPIResponse<Manga>> getMangas();
+    Call<List<Manga>> getMangas();
 
     @GET("LightNovel")
-    Call<JAPIResponse<LightNovel>> getLightNovels();
+    Call<List<LightNovel>> getLightNovels();
 
 }

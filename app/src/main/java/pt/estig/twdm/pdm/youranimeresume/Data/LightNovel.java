@@ -1,30 +1,35 @@
 package pt.estig.twdm.pdm.youranimeresume.Data;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity
 public class LightNovel {
+    @PrimaryKey
+    private long id;
     private String name;
-    private int totalchapters;
-    private int currentreadchapter;
     private String publisher;
     private String Author;
+    private String Synopis;
+    private String image;
+    private int rate;
 
-    public LightNovel(String name, int totalchapters, int currentreadchapter, String publisher, String author) {
+    public LightNovel(long id, String name, String publisher, String Author, String Synopis, String image, int rate) {
+        this.id = id;
         this.name = name;
-        this.totalchapters = totalchapters;
-        this.currentreadchapter = currentreadchapter;
         this.publisher = publisher;
-        this.Author = author;
+        this.Author = Author;
+        this.Synopis = Synopis;
+        this.image = image;
+        this.rate = rate;
+    }
+
+    public long getId() {
+        return id;
     }
 
     public String getName() {
         return name;
-    }
-
-    public int getTotalchapters() {
-        return totalchapters;
-    }
-
-    public int getCurrentreadchapter() {
-        return currentreadchapter;
     }
 
     public String getPublisher() {
@@ -33,5 +38,17 @@ public class LightNovel {
 
     public String getAuthor() {
         return Author;
+    }
+
+    public String getSynopis() {
+        return Synopis;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public int getRate() {
+        return rate;
     }
 }

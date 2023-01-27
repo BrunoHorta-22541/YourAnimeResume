@@ -32,6 +32,14 @@ public class AnimeViewModel extends AndroidViewModel {
     public void refreshData() {
         repository.refreshAnimeList();
     }
+    public void top5animes(){repository.list5topanimes();}
+    public LiveData<List<Anime>> getAnimeBYAZ(){
+        return this.repository.getAnimeAZ();
+    }
+
+    public LiveData<Anime> getAnimeWTID(long animeId){
+        return this.repository.getAnimeFromID(animeId);
+    }
 }
 
 

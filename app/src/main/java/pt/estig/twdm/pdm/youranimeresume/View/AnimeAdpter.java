@@ -25,16 +25,17 @@ public class AnimeAdpter extends RecyclerView.Adapter<AnimeAdpter.AnimeViewHolde
 
     public Context context;
     private Drawable imageAnime;
-    public AnimeAdpter(AnimeAdpterEventListener eventListener) {
+    public AnimeAdpter( AnimeAdpterEventListener eventListener,Context context) {
         this.eventListener = eventListener;
         this.animeList = new ArrayList<>();
+        this.context= context;
     }
 
     @NonNull
     @Override
     public AnimeAdpter.AnimeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.animelist_row, parent, false);
-        return new AnimeViewHolder(layout, parent.getContext());
+        return new AnimeViewHolder(layout, context);
     }
 
 
@@ -42,16 +43,11 @@ public class AnimeAdpter extends RecyclerView.Adapter<AnimeAdpter.AnimeViewHolde
     @Override
     public void onBindViewHolder(@NonNull AnimeAdpter.AnimeViewHolder holder, int position) {
         Anime anime = this.animeList.get(position);
-        Glide.with(context)
-                .load(anime.getAnimeImage())
+        Glide.with(this.context)
+                .load(anime.getImage())
                 .into(holder.animeImage);
         holder.setAnimeName(anime.getName());
-        holder.setSynapse(anime.getSynopis());
         holder.rootView.setOnClickListener(view -> eventListener.onAnimeClicked(anime.getId()));
-        holder.rootView.setOnLongClickListener(view -> {
-            eventListener.onAnimeLongClicked(anime.getId());
-            return true;
-        });
     }
 
     public int getItemCount() {
@@ -68,28 +64,22 @@ public class AnimeAdpter extends RecyclerView.Adapter<AnimeAdpter.AnimeViewHolde
         private View rootView;
         private TextView animeName;
         private ImageView animeImage;
-        private TextView synapse;
 
         public AnimeViewHolder(@NonNull View rootView, Context context) {
             super(rootView);
             this.context = context;
             this.rootView = rootView;
-            this.animeName = itemView.findViewById(R.id.animeName);
-            this.animeImage = itemView.findViewById(R.id.animeImage);
-            this.synapse = itemView.findViewById(R.id.synapse);
+            this.animeName = itemView.findViewById(R.id.mangaName);
+            this.animeImage = itemView.findViewById(R.id.mangaImage);
         }
         public void setAnimeName(String animeName) {
             this.animeName.setText(animeName);
-        }
-        public void setSynapse(String synapse){
-            this.synapse.setText(synapse);
         }
 
     }
 
     public interface  AnimeAdpterEventListener{
-        void onAnimeClicked(long categoryId);
+        void onAnimeClicked(long animeId);
 
-        void onAnimeLongClicked(long categoryId);
     }
 }

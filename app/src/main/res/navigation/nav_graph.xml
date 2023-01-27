@@ -16,15 +16,80 @@
         <action
             android:id="@+id/action_homeFragment_to_lightNovelFragment"
             app:destination="@id/lightNovelFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_animeFragment"
+            app:destination="@id/animeFragment" />
     </fragment>
     <fragment
         android:id="@+id/mangaFragment"
         android:name="pt.estig.twdm.pdm.youranimeresume.View.MangaFragment"
         android:label="fragment_manga"
-        tools:layout="@layout/fragment_manga" />
+        tools:layout="@layout/fragment_manga" >
+        <action
+            android:id="@+id/action_mangaFragment_to_mangaDetailsFragment"
+            app:destination="@id/mangaDetailsFragment" />
+        <action
+            android:id="@+id/action_mangaFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/lightNovelFragment"
         android:name="pt.estig.twdm.pdm.youranimeresume.View.LightNovelFragment"
         android:label="fragment_light_novel"
-        tools:layout="@layout/fragment_light_novel" />
+        tools:layout="@layout/fragment_light_novel" >
+        <action
+            android:id="@+id/action_lightNovelFragment_to_lightNovelDetailsFragment"
+            app:destination="@id/lightNovelDetailsFragment" />
+        <action
+            android:id="@+id/action_lightNovelFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animeFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.AnimeFragment"
+        android:label="fragment_anime"
+        tools:layout="@layout/fragment_anime" >
+        <action
+            android:id="@+id/action_animeFragment_to_animeDetailsFragment"
+            app:destination="@id/animeDetailsFragment" />
+        <action
+            android:id="@+id/action_animeFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animeDetailsFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.AnimeDetailsFragment"
+        android:label="fragment_anime_details"
+        tools:layout="@layout/fragment_anime_details" >
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_animeDetailsFragment_to_animeFragment"
+            app:destination="@id/animeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mangaDetailsFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.MangaDetailsFragment"
+        android:label="fragment_manga_details"
+        tools:layout="@layout/fragment_manga_details" >
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_mangaDetailsFragment_to_mangaFragment"
+            app:destination="@id/mangaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lightNovelDetailsFragment"
+        android:name="pt.estig.twdm.pdm.youranimeresume.View.LightNovelDetailsFragment"
+        android:label="fragment_light_novel_details"
+        tools:layout="@layout/fragment_light_novel_details" >
+        <argument
+            android:name="id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_lightNovelDetailsFragment_to_lightNovelFragment"
+            app:destination="@id/lightNovelFragment" />
+    </fragment>
 </navigation>

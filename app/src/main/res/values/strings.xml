@@ -5,5 +5,11 @@
 
 
     <!--String English-->
+    <string name="topAnimes">Top Animes</string>
     <string name="topMangas">Top Mangas</string>
+    <string name="topLN">Top Light Novels</string>
+    <string name="anime">All animes</string>
+    <string name="manga">All Mangas</string>
+    <string name="light">All Light Novels</string>
+
 </resources>

@@ -1,27 +1,28 @@
 package pt.estig.twdm.pdm.youranimeresume.Data;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity
 public class Anime {
+    @PrimaryKey
     private long id;
     private String name;
     private String Studio;
     private String Author;
-    private String synopis;
-    private String animeImage;
+    private String Synopis;
+    private String image;
     private int rate;
 
 
-    public Anime(long id,String name, String synopis, String studio, String author,String animeImage,int rate) {
+    public Anime(long id, String name, String Studio, String Author, String Synopis, String image, int rate) {
         this.id = id;
         this.name = name;
-        this.synopis = synopis;
-        this.Studio = studio;
-        this.Author = author;
-        this.animeImage = animeImage;
+        this.Studio = Studio;
+        this.Author = Author;
+        this.Synopis = Synopis;
+        this.image = image;
         this.rate = rate;
-    }
-
-    public int getRate() {
-        return rate;
     }
 
     public long getId() {
@@ -32,15 +33,6 @@ public class Anime {
         return name;
     }
 
-
-    public String getSynopis() {
-        return synopis;
-    }
-
-    public String getAnimeImage() {
-        return animeImage;
-    }
-
     public String getStudio() {
         return Studio;
     }
@@ -49,4 +41,15 @@ public class Anime {
         return Author;
     }
 
+    public String getSynopis() {
+        return Synopis;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public int getRate() {
+        return rate;
+    }
 }

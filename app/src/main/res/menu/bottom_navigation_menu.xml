@@ -4,11 +4,14 @@
 
     <item
         android:id="@+id/homeFragment"
+        android:title="Top Ratings" />
+    <item
+        android:id="@+id/animeFragment"
         android:title="Anime" />
     <item
-        android:id="@+id/MangaFragment"
+        android:id="@+id/mangaFragment"
         android:title="Manga" />
     <item
-        android:id="@+id/LightNovelFragment"
+        android:id="@+id/lightNovelFragment"
         android:title="LightNovel" />
 </menu>

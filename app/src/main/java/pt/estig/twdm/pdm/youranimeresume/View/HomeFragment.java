@@ -47,10 +47,11 @@ public class HomeFragment extends Fragment implements AnimeAdpter.AnimeAdpterEve
         this.viewModel = new ViewModelProvider(this, (ViewModelProvider.Factory) new ViewModelProvider.AndroidViewModelFactory(getActivity().getApplication())).get(AnimeViewModel.class);
         navController = NavHostFragment.findNavController(HomeFragment.this);
         RecyclerView recyclerView = root.findViewById(R.id.animeRecyclerView);
-        this.adapter = new AnimeAdpter(this);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
+        this.adapter = new AnimeAdpter(this,getContext());
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(linearLayoutManager);
         //this.updateCategoryList();
 
         return root;
@@ -62,16 +63,13 @@ public class HomeFragment extends Fragment implements AnimeAdpter.AnimeAdpterEve
         super.onViewCreated(view, savedInstanceState);
 
 
-        this.viewModel.getItems().observe(getViewLifecycleOwner(), animeList -> {
-            Log.d("animeList", animeList.toString());
-            this.adapter.updateAnimeList(animeList);
-        });
+        viewModel.top5animes();
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        viewModel.refreshData();
+        viewModel.top5animes();
     }
 
     @Override
@@ -79,10 +77,7 @@ public class HomeFragment extends Fragment implements AnimeAdpter.AnimeAdpterEve
 
     }
 
-    @Override
-    public void onAnimeLongClicked(long categoryId) {
 
-    }
 
 
 }
