@@ -1,135 +1,134 @@
 {
-  "Anime": [
-    {
-      "id": 1,
-      "name": "Eminence in the Shadows",
-      "Synopis": "Minoru Kagenou is fixated on becoming strong, but his desire is not for recognition, instead he wants to blend in. He secretly trains and fights local biker gangs at night. After a truck accident, Minoru believes his ambitions have come to an end, but he wakes up in another world as Cid, the second child of the noble Kagenou family, where magic is commonplace. Cid uses his new found power to establish Shadow Garden, a group dedicated to fighting the Cult of Diablos, an organization that was only in Cid's imagination, but becomes real as Shadow Garden grows in power and influence.",
-      "Studio": "Nexus",
-      "Author": "Daisuke Aizawa",
-      "rate":8,
-      "image":"https://cdn.myanimelist.net/images/anime/1874/121869.jpg"
-
-    },
-    {
-      "id": 2,
-      "name": "Dog Days",
-      "Synopis": "Dog Days is set in the world of Flonyard, an alternate Earth where humans have animal ears and tails. The Republic of Biscotti, a union of dog-like citizens, is under attack by the feline Galette Leo Knights. To save her kingdom, Princess Millhiore summons a champion from another world, Cinque Izumi, a normal junior high student from Earth. Cinque retrieves a sacred weapon and fights in wars that are more like sports competitions, raising money for the kingdoms. Cinque is successful but learns that a summoned champion cannot return home and must continue to fight as Biscotti's hero until a way back is found.",
-      "Studio": "Seven Arcs",
-      "Author": "Masaki TSUZUKI",
-      "rate":7,
-      "image":"https://cdn.myanimelist.net/images/anime/9/75378.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Sakarea",
-      "Synopis": "Chihiro Furuya, a zombie-obsessed child, wants an undead girlfriend. When his cat Baabu dies, he tries to make a resurrection potion to bring him back to life. He meets Rea Sanka, a rich girl who is unhappy with her life and together they work to save Baabu. Chihiro is successful in creating the potion and Rea, thinking it will kill her, drinks it in order to escape her problems. Instead, it turns her into a zombie after her death from a fatal accident. Chihiro helps Rea adjust to her new life, but they also have to deal with the strange consequences of her transformation.",
-      "Studio": "Studio Deen",
-      "Author": "Mitsuru Hattori",
-      "rate":7,
-      "image":"https://myanimelist.net/anime/11499/Sankarea/pics"
-    },
-    {
-      "id": 4,
-      "name": "Love Live Sunshine",
-      "Synopis": "Chika Takami, a normal girl, wants to start a school idol club at her high school, Uranohoshi Girl's High School, after being inspired by a former superstar school idol group μ's. But she faces opposition from student council president Dia Kurosawa. She meets Riko Sakurauchi, a transfer student who is a talented piano player and wants to recruit her to join the club, but it's not easy. Chika decides to overcome the obstacles and form a school idol group that shines as bright as the nine that came before her.",
-      "Studio": "Sunrise",
-      "Author": "Sakurako Kimino",
-      "rate":7,
-      "image":"https://myanimelist.net/anime/32526/Love_Live_Sunshine/pics"
-    },
-    {
-      id: 5,
-      name: "Fullmetal Alchemist: Brotherhood",
-      Synopis: "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
-      Studio: "Bones",
-      Author: "Hiromu Arakawa",
-      rate: 9,
-      image: "https://cdn.myanimelist.net/images/anime/4/26611.jpg"
-    },
-    {
-      id: 6,
-      name: "Naruto",
-      Synopis: "A young ninja seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.",
-      Studio: "Studio Pierrot",
-      Author: "Masashi Kishimoto",
-      rate: 8,
-      image: "https://cdn.myanimelist.net/images/anime/13/17405.jpg"
-    }
-  ],
-  "Manga": [
-  {
-      "id": 1,
-      "name": "Girl the Wild's",
-      "Synopis": "As he struggles to adapt to the cutthroat world of Wild's High, Jae Gu is determined to make a name for himself in the Wild's League and rise through the ranks to become the next champion. But with fierce opponents and the looming shadow of Queen, his journey will be filled with challenges and obstacles. With the help of his new friends, Jae Gu must train hard and push himself to the limit in order to reach his goal and become the ultimate martial artist.",
-      "publisher": "Naver Webtoon",
-      "Author": "Kim, Hye-Jin (Art), Hun (Story)",
-      "rate":8,
-      "image":"https://myanimelist.net/manga/45275/Girls_of_the_Wilds/pics"
-  },
-    {
-      "id": 2,
-      "name": "The lazy prince becomes a genius",
-      "Synopis": "After witnessing the shocking death of his mother, young Airen Farreira uses sleep to escape his painful reality, earning him the nickname, the lazy lord. Yet, in spite of others' jeers and whispers, Airen has no intention of changing his ways. But when he awakens one day from a dream about a mysterious swordsman, his life's trajectory takes a complete turn...",
-      "publisher": "Naver Webtoon",
-      "Author": " Ideungbyeol (Story), Dodomoon (Art)",
-      "rate":8,
-      "image":"https://myanimelist.net/manga/146827/The_Lazy_Lord_Masters_the_Sword/pics"
-    },
-    {
-      id: 3,
-      name: "One Piece",
-      Synopis: "A young man sets out on a journey to become the Pirate King and find the ultimate treasure, the One Piece.",
-      publisher: "Shueisha",
-      Author: "Eiichiro Oda",
-      rate: 9,
-      image: "https://cdn.myanimelist.net/images/manga/3/178905.jpg"
-    },
-    {
-      id: 4,
-      name: "Attack on Titan",
-      Synopis: "Humanity is on the brink of extinction as giant humanoid Titans roam the land, devouring anything in their path. A group of soldiers must protect the remaining humans from the Titans.",
-      publisher: "Kodansha",
-      Author: "Hajime Isayama",
-      rate: 8,
-      image: "https://cdn.myanimelist.net/images/manga/3/84143.jpg"
-    }
-  ],
-  "LightNovel": [
-  {
-    "id": 1,
-    "name": "My Vampire System",
-    "Synopis": "As Quinn sets out to complete the quest given to him by the system, he finds himself facing not only the moral dilemma of drinking human blood, but also the realization that he is not entirely human himself. He begins to question the true nature of the war with the Vicious Dalki and whether there may be more to the conflict than he previously thought. With the help of the system, Quinn starts to uncover the truth behind his abilities and the war, and decides to use them to help humanity in their fight against the Vicious Dalki. However, he must also come to terms with the fact that his actions may have unintended consequences and that the path to victory may not be as clear as he hoped.",
-    "publisher": "Webnovel",
-    "Author": "JKSManga",
-    "rate":9,
-    "image":"https://mynovellist.org/novel/123437/my-vampire-system#"
-    },
-    {
-      "id": 2,
-      "name": "This Young Master is not Cannon Fodder",
-      "Synopis": " In this new world, Xi Tianyi must navigate the politics and power struggles of the immortal sect, while also dealing with the enemies and grudges that come with his sudden rise to power. With his newfound abilities and the help of his system, he sets out to not only become the strongest cultivator in the sect, but also uncover the truth behind his transmigration and take control of his own fate.",
-      "Studio": "Webnovel",
-      "Author": "KaiserBlak",
-      "rate":9,
-      "image":"https://mynovellist.org/novel/883135/this-young-master-is-not-cannon-fodder#"
-    },
-    {
-    id: 3,
-    name: "Spice and Wolf",
-    Synopis: "A young merchant travels with a wolf-god who can take human form and helps him in his business dealings.",
-    publisher: "Kadokawa Shoten",
-    Author: "Isuna Hasekura",
-    rate: 8,
-    image: "https://i.pinimg.com/736x/a3/3b/58/a33b58cdbd72f6b7a1f8b1e5d51f5f3f.jpg"
-    },
-    {
-      id: 4,
-      name: "No Game No Life",
-      Synopis: "Two NEET siblings are summoned to a fantasy world where all conflicts are solved through high-stake games.",
-      publisher: "MF Bunko J",
-      Author: "Yuu Kamiya",
-      rate: 9,
-      image: "https://images-na.ssl-images-amazon.com/images/I/91RZYjEiGLL.jpg"
-    }
-  ]
-  }
+   "Anime":[
+      {
+         "id":1,
+         "name":"Eminence in the Shadows",
+         "Synopis":"Minoru Kagenou is fixated on becoming strong, but his desire is not for recognition, instead he wants to blend in. He secretly trains and fights local biker gangs at night. After a truck accident, Minoru believes his ambitions have come to an end, but he wakes up in another world as Cid, the second child of the noble Kagenou family, where magic is commonplace. Cid uses his new found power to establish Shadow Garden, a group dedicated to fighting the Cult of Diablos, an organization that was only in Cid's imagination, but becomes real as Shadow Garden grows in power and influence.",
+         "Studio":"Nexus",
+         "Author":"Daisuke Aizawa",
+         "rate":8,
+         "image":"https://cdn.myanimelist.net/images/anime/1874/121869.jpg"
+      },
+      {
+         "id":2,
+         "name":"Dog Days",
+         "Synopis":"Dog Days is set in the world of Flonyard, an alternate Earth where humans have animal ears and tails. The Republic of Biscotti, a union of dog-like citizens, is under attack by the feline Galette Leo Knights. To save her kingdom, Princess Millhiore summons a champion from another world, Cinque Izumi, a normal junior high student from Earth. Cinque retrieves a sacred weapon and fights in wars that are more like sports competitions, raising money for the kingdoms. Cinque is successful but learns that a summoned champion cannot return home and must continue to fight as Biscotti's hero until a way back is found.",
+         "Studio":"Seven Arcs",
+         "Author":"Masaki TSUZUKI",
+         "rate":7,
+         "image":"https://cdn.myanimelist.net/images/anime/9/75378.jpg"
+      },
+      {
+         "id":3,
+         "name":"Sakarea",
+         "Synopis":"Chihiro Furuya, a zombie-obsessed child, wants an undead girlfriend. When his cat Baabu dies, he tries to make a resurrection potion to bring him back to life. He meets Rea Sanka, a rich girl who is unhappy with her life and together they work to save Baabu. Chihiro is successful in creating the potion and Rea, thinking it will kill her, drinks it in order to escape her problems. Instead, it turns her into a zombie after her death from a fatal accident. Chihiro helps Rea adjust to her new life, but they also have to deal with the strange consequences of her transformation.",
+         "Studio":"Studio Deen",
+         "Author":"Mitsuru Hattori",
+         "rate":7,
+         "image":"https://myanimelist.net/anime/11499/Sankarea/pics"
+      },
+      {
+         "id":4,
+         "name":"Love Live Sunshine",
+         "Synopis":"Chika Takami, a normal girl, wants to start a school idol club at her high school, Uranohoshi Girl's High School, after being inspired by a former superstar school idol group μ's. But she faces opposition from student council president Dia Kurosawa. She meets Riko Sakurauchi, a transfer student who is a talented piano player and wants to recruit her to join the club, but it's not easy. Chika decides to overcome the obstacles and form a school idol group that shines as bright as the nine that came before her.",
+         "Studio":"Sunrise",
+         "Author":"Sakurako Kimino",
+         "rate":7,
+         "image":"https://myanimelist.net/anime/32526/Love_Live_Sunshine/pics"
+      },
+      {
+         "id":5,
+         "name":"Fullmetal Alchemist: Brotherhood",
+         "Synopis":"Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
+         "Studio":"Bones",
+         "Author":"Hiromu Arakawa",
+         "rate":9,
+         "image":"https://cdn.myanimelist.net/images/anime/4/26611.jpg"
+      },
+      {
+         "id":6,
+         "name":"Naruto",
+         "Synopis":"A young ninja seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.",
+         "Studio":"Studio Pierrot",
+         "Author":"Masashi Kishimoto",
+         "rate":8,
+         "image":"https://cdn.myanimelist.net/images/anime/13/17405.jpg"
+      }
+   ],
+   "Manga":[
+      {
+         "id":1,
+         "name":"Girl the Wild's",
+         "Synopis":"As he struggles to adapt to the cutthroat world of Wild's High, Jae Gu is determined to make a name for himself in the Wild's League and rise through the ranks to become the next champion. But with fierce opponents and the looming shadow of Queen, his journey will be filled with challenges and obstacles. With the help of his new friends, Jae Gu must train hard and push himself to the limit in order to reach his goal and become the ultimate martial artist.",
+         "publisher":"Naver Webtoon",
+         "Author":"Kim, Hye-Jin (Art), Hun (Story)",
+         "rate":8,
+         "image":"https://myanimelist.net/manga/45275/Girls_of_the_Wilds/pics"
+      },
+      {
+         "id":2,
+         "name":"The lazy prince becomes a genius",
+         "Synopis":"After witnessing the shocking death of his mother, young Airen Farreira uses sleep to escape his painful reality, earning him the nickname, the lazy lord. Yet, in spite of others' jeers and whispers, Airen has no intention of changing his ways. But when he awakens one day from a dream about a mysterious swordsman, his life's trajectory takes a complete turn...",
+         "publisher":"Naver Webtoon",
+         "Author":" Ideungbyeol (Story), Dodomoon (Art)",
+         "rate":8,
+         "image":"https://myanimelist.net/manga/146827/The_Lazy_Lord_Masters_the_Sword/pics"
+      },
+      {
+         "id":3,
+         "name":"One Piece",
+         "Synopis":"A young man sets out on a journey to become the Pirate King and find the ultimate treasure, the One Piece.",
+         "publisher":"Shueisha",
+         "Author":"Eiichiro Oda",
+         "rate":9,
+         "image":"https://cdn.myanimelist.net/images/manga/3/178905.jpg"
+      },
+      {
+         "id":4,
+         "name":"Attack on Titan",
+         "Synopis":"Humanity is on the brink of extinction as giant humanoid Titans roam the land, devouring anything in their path. A group of soldiers must protect the remaining humans from the Titans.",
+         "publisher":"Kodansha",
+         "Author":"Hajime Isayama",
+         "rate":8,
+         "image":"https://cdn.myanimelist.net/images/manga/3/84143.jpg"
+      }
+   ],
+   "LightNovel":[
+      {
+         "id":1,
+         "name":"My Vampire System",
+         "Synopis":"As Quinn sets out to complete the quest given to him by the system, he finds himself facing not only the moral dilemma of drinking human blood, but also the realization that he is not entirely human himself. He begins to question the true nature of the war with the Vicious Dalki and whether there may be more to the conflict than he previously thought. With the help of the system, Quinn starts to uncover the truth behind his abilities and the war, and decides to use them to help humanity in their fight against the Vicious Dalki. However, he must also come to terms with the fact that his actions may have unintended consequences and that the path to victory may not be as clear as he hoped.",
+         "publisher":"Webnovel",
+         "Author":"JKSManga",
+         "rate":9,
+         "image":"https://mynovellist.org/novel/123437/my-vampire-system#"
+      },
+      {
+         "id":2,
+         "name":"This Young Master is not Cannon Fodder",
+         "Synopis":" In this new world, Xi Tianyi must navigate the politics and power struggles of the immortal sect, while also dealing with the enemies and grudges that come with his sudden rise to power. With his newfound abilities and the help of his system, he sets out to not only become the strongest cultivator in the sect, but also uncover the truth behind his transmigration and take control of his own fate.",
+         "Studio":"Webnovel",
+         "Author":"KaiserBlak",
+         "rate":9,
+         "image":"https://mynovellist.org/novel/883135/this-young-master-is-not-cannon-fodder#"
+      },
+      {
+         "id":3,
+         "name":"Spice and Wolf",
+         "Synopis":"A young merchant travels with a wolf-god who can take human form and helps him in his business dealings.",
+         "publisher":"Kadokawa Shoten",
+         "Author":"Isuna Hasekura",
+         "rate":8,
+         "image":"https://i.pinimg.com/736x/a3/3b/58/a33b58cdbd72f6b7a1f8b1e5d51f5f3f.jpg"
+      },
+      {
+         "id":4,
+         "name":"No Game No Life",
+         "Synopis":"Two NEET siblings are summoned to a fantasy world where all conflicts are solved through high-stake games.",
+         "publisher":"MF Bunko J",
+         "Author":"Yuu Kamiya",
+         "rate":9,
+         "image":"https://images-na.ssl-images-amazon.com/images/I/91RZYjEiGLL.jpg"
+      }
+   ]
+}
